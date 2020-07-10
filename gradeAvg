@@ -1,0 +1,19 @@
+public class GradeAvg {
+
+	public static void main(String[] args) {
+		double quizScore1, quizScore2, quizScore3, testScore1, testScore2, quizScoreAvg, testScoreAvg;
+		quizScore1 = 80.0;
+		quizScore2 = 88.0;
+		quizScore3 = 87.0;
+		testScore1 = 89.0;
+		testScore2 = 92.0;
+
+		quizScoreAvg = (quizScore1 + quizScore2 + quizScore3) / 3;
+		testScoreAvg = (testScore1 + testScore2) / 2;
+
+		System.out.println("Quiz Score Average: " + quizScoreAvg);
+		System.out.println("Test Score Average: " + testScoreAvg);
+
+	}
+
+}
