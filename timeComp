@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class TimeComp {
+
+	public static void main(String[] args) {
+		Scanner input = new Scanner(System.in); 
+		
+		System.out.print("Enter Seconds: ");
+		
+		int seconds = input.nextInt(); 
+		
+		//takes the remainder and uses as the seconds
+		int s = seconds % 60;
+		int m = seconds/60;
+		int h = m/60;
+		//takes the remainder and uses as the minutes
+		m = m % 60; 
+		System.out.print(h + " hours, " + m + " minutes, " + "and " + s + " seconds");
+	}
+
+}
